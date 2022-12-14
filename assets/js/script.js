@@ -1,9 +1,9 @@
 
 
     $(".single-item").slick({
+        autoplay: false,
         infinite: true,
-    autoplay: true,
-    dots: true,
+        dots: true,
         });
 
 
