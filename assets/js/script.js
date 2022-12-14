@@ -1,47 +1,15 @@
+let typed2 = new Typed('#typed2', {
+    strings: ["to learn just the topics of their choice ", "who love live interactions with experts", "who have a busy schedule and prefer flexibility", "who like variety on curriculum choices", "who want to keep with the career trend", "love affordable courses", "love free classes ", "for kids & adults"],
+    typeSpeed: 0,
+    backSpeed: 0,
+    fadeOut: true,
+    loop: true,
+    // loopCount: Infinity
+});
 
 
-    $(".single-item").slick({
-        autoplay: false,
-        infinite: true,
-        dots: true,
-        });
-
-
-    var testim = document.getElementById("testim"),
-    testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
-    testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
-    testimLeftArrow = document.getElementById("left-arrow"),
-    testimRightArrow = document.getElementById("right-arrow"),
-    testimSpeed = 4500,
-    currentSlide = 0,
-    currentActive = 0,
-    testimTimer,
-    touchStartPos,
-    touchEndPos,
-    touchPosDiff,
-    ignoreTouch = 30;
-    ;
-
-
-
-   
-
-
-
-
-
-    // 2nd testimonial =============================================
-
-
-
-
-
-
-    // typed js ================================
-
-    
-
-
-
-
-
+$(".single-item").slick({
+    infinite: true,
+    autoplay: true,
+    dots: true,
+});
