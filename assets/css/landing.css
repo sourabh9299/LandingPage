@@ -148,8 +148,12 @@ color: #695D7C;
 }
 
 .banner-text .text-2 {
+<<<<<<< HEAD
     /* font-family: 'Raleway'; */
         /* font-style: normal; */
+=======
+   
+>>>>>>> 08eff304f1ed8ab871baa78903a5ad39bb946100
     font-weight: 600;
     font-size: 36px;
     /* line-min-height: 42px; */
