@@ -153,11 +153,11 @@ font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
     font-size: 96px;
-    line-min-height: 140px;
-    /* display: flex; */
     align-items: center;
-
     color: #F8E4C8;
+    margin-bottom: 0px;
+        height: 128px;
+        margin-top: 12px;
 
     /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
@@ -226,7 +226,7 @@ font-family: "Poppins";
 
 .image_phone img{
     min-height: 100%;
-    max-height: 380px;
+    max-height: 410px;
 
 }
 
@@ -243,6 +243,7 @@ font-family: "Poppins";
     font-family: 'Poppins';
     font-size: 32px;
     font-weight: 600;
+    margin-bottom: 4px;
 }
 
 .phone .heading-div .p2 {
@@ -332,6 +333,7 @@ font-family: "Poppins";
 .icons-content {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 22px;
 }
 
 .explore .icon-img {
@@ -341,8 +343,8 @@ font-family: "Poppins";
 
 .explore .icon-img img {
     margin: auto;
-    width: 45px;
-    min-height: 45px;
+    width: 50px;
+        min-height: 50px;
 }
 
 
@@ -364,7 +366,11 @@ font-family: "Poppins";
 
 
 .icon-img>p {
+    font-weight: normal;
     margin: 0;
+        font-size: 12PX;
+            font-weight: 400;
+            color: #695D7C;
 }
 
 
