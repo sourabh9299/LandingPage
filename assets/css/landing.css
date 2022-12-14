@@ -99,10 +99,14 @@ color: #695D7C;
 
 /* Typed */
 
+
 .typed-cursor {
     display: none !important;
 }
 
+.For-typed {
+    height: 80px;
+}
 .For-typed p {
     min-height: 39.06px;
     /* font-family: 'Poppins'; */
@@ -223,16 +227,17 @@ color: #695D7C;
 }
 
 .phone .heading-div .p1 {
-        font-size: 36px;
+            font-size: 36px;
             line-height: 54px;
             color: #EE5622;
-        font-family: 'Poppins';
-        font-weight: 600;
-        font-size: 36px;
+            font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 36px;
             line-height: 54px;
             /* Primary/Dark */
             color: #EE5622;
             margin-bottom: 5px;
+            margin-top: 0;
 }
 
 .phone .heading-div .p2 {
@@ -240,8 +245,9 @@ color: #695D7C;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-        line-height: 127%;
+        /* line-height: 127px; */
         color: #695D7C;
+        /* height: 150px; */
 }
 
 .phone .phone-img {
@@ -263,7 +269,7 @@ color: #695D7C;
     border-radius: 10px;
     color: white;
     border: white;
-    margin: 20px 0;
+    margin: 2px 0;
 }
 
 .teacher-button {
@@ -1882,10 +1888,15 @@ color: #695D7C;
 
 
 
-.single-item {
+.single-item2,
+.single-item1 {
     padding: 20px;
 }
 
+.teacher-round-img {
+    width: 400px;
+    margin: auto;
+}
 /* fade in out =========================================end */
 
 
