@@ -176,7 +176,7 @@ color: #695D7C;
 .phone {
     position: relative;
     width: 1180px;
-    min-height: 413px;
+    height: 386px;
     /* max-height: 413px; */
     left: 10%;
     right: 10%;
@@ -212,8 +212,9 @@ color: #695D7C;
 }
 
 .image_phone img{
-    min-height: 100%;
-    max-height: 410px;
+    height: 350px;
+        position: relative;
+        top: -20px;
 
 }
 
@@ -338,12 +339,12 @@ color: #695D7C;
 
 .explore .icon-img img {
     margin: auto;
-    width: 50px;
-        min-height: 50px;
+        width: 50px;
+        height: 50px;
 }
 .homework {
-    width: 48px;
-    height: 48px;
+    width: 48px !important;
+        height: 48px !important;
 }
 
 

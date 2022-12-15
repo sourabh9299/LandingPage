@@ -22,7 +22,7 @@ $(".single-item2").slick({
     infinite: true,
     autoplay: true,
     dots: true,
-    autoplaySpeed: 1500
+    autoplaySpeed: 2000
 
 });
 
