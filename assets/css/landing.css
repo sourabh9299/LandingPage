@@ -60,7 +60,7 @@ nav {
 font-family: "Poppins";
     font-size: 18px;
     font-weight: 600;
-color: #695D7C;
+color: #7C1473;
 }
 
 .nav-icons h4:hover {
@@ -176,7 +176,7 @@ color: #695D7C;
 .phone {
     position: relative;
     width: 1180px;
-    height: 386px;
+    height: 365px;
     /* max-height: 413px; */
     left: 10%;
     right: 10%;
@@ -195,6 +195,7 @@ color: #695D7C;
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
+    /* padding-bottom: px; */
 }
 
 
@@ -212,9 +213,9 @@ color: #695D7C;
 }
 
 .image_phone img{
-    height: 350px;
-        position: relative;
-        top: -20px;
+    height: 330px;
+        /* position: relative; */
+        /* top: -20px; */
 
 }
 
@@ -237,7 +238,7 @@ color: #695D7C;
             line-height: 54px;
             /* Primary/Dark */
             color: #EE5622;
-            margin-bottom: 5px;
+            margin-bottom: 1px;
             margin-top: 0;
 }
 
@@ -287,13 +288,13 @@ color: #695D7C;
 
 .heading-div .p-download {
     
-    font-weight: 400;
-    font-size: 18px;
+        font-weight: 400;
+            font-size: 18px;
         line-height: 27px;
     
         /* Text/Dark */
-    color: #695D7C;
-    margin-bottom: 10px;
+        color: #695D7C;
+        margin-bottom: 1px;
         margin-left: 8px;
 }
 
@@ -480,6 +481,7 @@ color: #695D7C;
     border-radius: 50px;
     margin-top: 20px;
 
+    margin-bottom: 0 !important;
 }
 
 .testimonials-Div {
@@ -1906,13 +1908,13 @@ footer {
     /* position: relative; */
     background: white;
     width: 100%;
-    min-height: 240px;
+    height: 240px;
     /* bottom: -400px; */
     /* margin-top: 400px; */
     display: flex;
     box-shadow: 0px 0px 11px 2px rgba(49, 38, 62, 0.1);
     /* border-radius: 50px;  */
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 
@@ -1954,7 +1956,7 @@ footer {
     color: #695d7c;
     text-align: center;
     font-size: 14px;
-    line-min-height: 16px;
+    height: 16px;
 }
 
 .footer-widget-title {
@@ -1964,7 +1966,7 @@ footer {
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
-    line-min-height: 18px;
+    height: 18px;
     /* identical to box min-height */
 
     display: flex;
@@ -1975,20 +1977,29 @@ footer {
     color: #695D7C;
 }
 
+
 .footer-widget .footer-menu li::marker {
     content: "";
+    display: none;
 }
 
+.for-flex {
+    display: flex;
+}
 .footer-widget .footer-menu li a {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-min-height: 24px;
+    height: 24px;
 
     color: #31263E;
 }
 
+.footer-menu img {
+    width: 89.46px;
+    height: 30px;
+}
 .footer-widget .footer-menu li a:hover {
     color: #ee5622;
     font-weight: 600;
