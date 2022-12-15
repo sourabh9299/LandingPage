@@ -1904,7 +1904,7 @@ color: #7C1473;
 
 
 footer {
-    font-family: 'Poppins';
+    /* font-family: 'Poppins'; */
     /* position: relative; */
     background: white;
     width: 100%;
@@ -1935,6 +1935,7 @@ footer {
 .social-profile {
     display: flex;
     /* flex-wrap: wrap; */
+    padding-left: 0;
 }
 
 .social-profile li:not(:last-child) {
@@ -1960,7 +1961,7 @@ footer {
 }
 
 .footer-widget-title {
-    font-family: 'Poppins';
+    /* font-family: 'Poppins'; */
     padding-top: 20px;
     padding-left: 30px;
     font-style: normal;
@@ -1987,7 +1988,7 @@ footer {
     display: flex;
 }
 .footer-widget .footer-menu li a {
-    font-family: 'Poppins';
+    /* font-family: 'Poppins'; */
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
