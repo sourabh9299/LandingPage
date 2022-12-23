@@ -1106,9 +1106,9 @@ footer {
     }
 
 
-.image_phone img{
-    height: 362px;
-}
+        .image_phone img {
+            height: 362px;
+        }
 
     .For-typed {
         height: 180px;
@@ -1138,13 +1138,27 @@ footer {
         height: 410px;
     }
 
-       
+        nav {
+            padding: 0;
+        }
+
+        .icon-img>p {
+            font-size: 13px;
+            font-weight: 600;
+        }
 
     .testimonials {
         flex-direction: row;
         flex-wrap: wrap;
     }
 
+        .testimonal-text {
+            font-size: 22px;
+        }
+    
+        .writter-p {
+            font-size: 22px;
+        }
     .review {
         flex-direction: column-reverse;
 
@@ -1166,7 +1180,7 @@ footer {
 
     .testimonials .second {
         background: url("../img/Pencil_img.jpeg") no-repeat;
-            background-size: 100%;
+        background-size: 100%;
     }
 
     .teacher-button {
@@ -1213,7 +1227,12 @@ footer {
     }
 
     .social-profile li a {
-        font-size: 22px;
+        font-size: 30px;
+            margin: 0 10px;
+        }
+        
+        .footer-widget .footer-menu li a {
+            font-size: 17px;
     }
 
     .footer-widget-title {
