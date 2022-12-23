@@ -1099,11 +1099,16 @@ footer {
         margin-bottom: 2rem;
     }
 
-   
+
     .phone-section .landing {
         margin: 20px 0px;
-            height: 40px;
+        height: 40px;
     }
+
+
+.image_phone img{
+    height: 362px;
+}
 
     .For-typed {
         height: 180px;
@@ -1133,6 +1138,8 @@ footer {
         height: 410px;
     }
 
+       
+
     .testimonials {
         flex-direction: row;
         flex-wrap: wrap;
@@ -1144,11 +1151,11 @@ footer {
         flex-wrap: wrap
     }
 
-    .testimonials .first>.our-teacher{
+    .testimonials .first>.our-teacher {
         text-align: center;
     }
 
-    .testimonials .first{
+    .testimonials .first {
         margin-bottom: 2rem;
     }
 
@@ -1157,11 +1164,12 @@ footer {
         width: 100%;
         /* background-image: url("../img/Pencil_img.jpeg"); */
     }
+
     .testimonials .second {
         width: 100%;
         background-image: url("../img/Pencil_img.jpeg");
     }
-    
+
     .teacher-button {
         margin: 0 58px;
         margin-bottom: 36px;
@@ -1178,45 +1186,43 @@ footer {
         width: 100%;
     }
 
-        .review-title h2 {
-            margin: 0;
-            padding: 0;
-            margin: 40px 20px 20px 50px;
-        }
+    .review-title h2 {
+        margin: 0;
+        padding: 0;
+        margin: 40px 20px 20px 50px;
+    }
 
-        .testimonials .second{
+    .testimonials .second {
         margin-left: 0;
     }
 
-    .footer-area{
+    .footer-area {
         box-shadow: none !important;
         scale: 1;
     }
-    
-    .footer-row{
+
+    .footer-row {
         display: block;
     }
 
-    .footer-widget-title{
-        padding-left:0 ;
-    }
-
-    .footer-area .footer-menu{
+    .footer-widget-title {
         padding-left: 0;
     }
-        .social-profile li a{
-            font-size: 22px;
-        }
-         .footer-widget-title{
-            font-size: 22px !important;
-         }
 
-                 .footer-menu img {
-                     width: 128px;
-                     height: auto;
-                 }
+    .footer-area .footer-menu {
+        padding-left: 0;
+    }
+
+    .social-profile li a {
+        font-size: 22px;
+    }
+
+    .footer-widget-title {
+        font-size: 22px !important;
+    }
+
+    .footer-menu img {
+        width: 128px;
+        height: auto;
+    }
 }
-
-
-
-
