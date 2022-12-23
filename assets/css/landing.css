@@ -1101,7 +1101,8 @@ footer {
 
    
     .phone-section .landing {
-        margin: 10px 0px;
+        margin: 20px 0px;
+            height: 40px;
     }
 
     .For-typed {
@@ -1125,7 +1126,7 @@ footer {
     }
 
     .banner .banner-text {
-        top: 90px;
+        top: 71px;
     }
 
     .phone {
@@ -1203,7 +1204,19 @@ footer {
     .footer-area .footer-menu{
         padding-left: 0;
     }
+        .social-profile li a{
+            font-size: 22px;
+        }
+         .footer-widget-title{
+            font-size: 22px !important;
+         }
+
+                 .footer-menu img {
+                     width: 128px;
+                     height: auto;
+                 }
 }
+
 
 
 
