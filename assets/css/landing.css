@@ -1094,7 +1094,7 @@ footer {
     .testimonials,
     .review,
     .footer-area {
-        width: 80%;
+        width: 85%;
         margin: auto;
         margin-bottom: 2rem;
     }
@@ -1162,12 +1162,11 @@ footer {
     .testimonials .first,
     .testimonials .second {
         width: 100%;
-        /* background-image: url("../img/Pencil_img.jpeg"); */
     }
 
     .testimonials .second {
-        width: 100%;
-        background-image: url("../img/Pencil_img.jpeg");
+        background: url("../img/Pencil_img.jpeg") no-repeat;
+            background-size: 100%;
     }
 
     .teacher-button {
