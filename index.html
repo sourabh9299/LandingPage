@@ -20,27 +20,12 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-    crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
+
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
-    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!--  -->
 
 
 <body>
@@ -70,14 +55,23 @@
         </div>
     </section>
 
-    <section class="phone">
+    <section class="">
+        <div class="phone">
+
         <div class="">
             <div class="heading-div">
                 <p class="p1">Educational Platform for Learners</p>
-
-                <div class="For-typed">
-                    <p class="p2 " id="typed2"></p>
+                <div class="container">
+                    <p class="quotes ">to learn just the topics of their choice</p>
+                    <p class="quotes ">who love live interactions with experts</p>
+                    <p class="quotes ">who have a busy schedule and prefer flexibility</p>
+                    <p class="quotes ">who like variety on curriculum choices</p>
+                    <p class="quotes ">who want to keep with the career trend</p>
+                    <p class="quotes ">love affordable courses</p>
+                    <p class="quotes ">love free classes</p>
+                    <p class="quotes ">for kids & adults</p>
                 </div>
+                
                 <a href="http://fundoo.toxsl.in/">
                     <button class="banner-button">
                         Start now
@@ -91,6 +85,7 @@
                 <!-- <video src="./assets/banner video.mp4"></video> -->
                 <img class="" src="./assets/Banner.gif" alt="error">
             </div>
+        </div>
         </div>
 
     </section>
@@ -132,8 +127,7 @@
                     </p>
                 </div>
 
-            </div>
-            <div class="icons-content">
+        
                 <div class="icon-img">
                     <img src="./assets/img/Icons/6.png" alt="">
                     <p>
@@ -172,6 +166,8 @@
 
         <div class="exp-img">
             <div class="forCircle">
+                
+
                 <p><span style="color: white;">Explore </span> our <br>
                     platform <br>
                     for..</p>
@@ -182,9 +178,6 @@
 
 
     </section>
-
-
-
 
 
 
@@ -449,6 +442,26 @@
     
 
     <script src="./assets/js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<script>
+    (function () {
+
+        var quotes = $(".quotes");
+        var quoteIndex = -1;
+
+        function showNextQuote() {
+            ++quoteIndex;
+            quotes.eq(quoteIndex % quotes.length)
+                .fadeIn(800)
+                .delay(2000)
+                .fadeOut(2000, showNextQuote);
+        }
+
+        showNextQuote();
+
+    })();
+</script>
 
 </body>
 
