@@ -89,7 +89,7 @@ nav {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 36px;
     /* line-min-height: 127%; */
     /* or 51px */
     color: #695D7C;
@@ -115,10 +115,11 @@ nav {
     font-size: 36px;
     line-height: 127%;
     /* or 46px */
-    width: 561px;
+    width: 100%;
     /* Primary/Dark */
     color: #EE5622;
 }
+
 
 .typed-cursor {
     display: none !important;
@@ -292,6 +293,7 @@ nav {
     color: white;
     border: white;
     margin: 2px 0;
+
 }
 
 .teacher-button {
@@ -355,7 +357,20 @@ nav {
 
 .explore .icon-img {
     text-align: center;
-    margin: 5%;
+    /* margin: 5%; */
+        width: 165px;
+    }
+    
+    
+    .bg-img-2 img {
+        height: 100%;
+        /* transform: scale(1.8); */
+        display: none;
+    }
+    
+    .bg-img-2 {
+        width: 100%;
+        height: 100%;
 }
 
 .explore .icon-img img {
@@ -388,7 +403,7 @@ nav {
 .icon-img>p {
     font-weight: normal;
     margin: 0;
-    font-size: 12PX;
+    font-size: 18px;
     font-weight: 400;
     color: #695D7C;
 }
@@ -476,7 +491,7 @@ nav {
     margin-top: 84px;
     background: none;
     margin-left: 40px;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 32px;
     min-height: 44px;
     margin: 20 48px 20 48px;
@@ -1111,13 +1126,13 @@ footer {
 
     /* explore */
 .explore .icon-img {
-    margin: 0 3% 0 3%;
+    /* margin: 0 3% 0 3%; */
 }
 
 
 @media only screen and (max-device-width: 1196px) {
     .explore .icon-img {
-        margin: 0 1.5% 0 1.5%;
+        /* margin: 0 1.5% 0 1.5%; */
     }
 }
 
@@ -1152,11 +1167,16 @@ footer {
 
     }
 
+                .image_phone img {
+        
+                    top: 20px;
+                }
     .phone .heading-div .p1 {
         font-size: 20px;
         line-height: 18px;
         color: #695D7C;
-        margin-top: 20px;
+        margin-top: 36px;
+            margin-bottom: 8px;
     }
 
     .phone .heading-div .p2 {
@@ -1171,8 +1191,26 @@ footer {
         top: 71px;
     }
 
+                .banner-button {
+                    margin-top: 89px;
+                }
+        
+                .heading-div .p-download {
+                    margin: 0;
+                    margin-top: 49px;
+                    margin-bottom: 3px;
+        
+                }
+        
+                .phone>div {
+                    padding-bottom: 0;
+                }
+        
+                .phone .store-img {
+                    margin-bottom: 28px;
+                }
     .phone {
-        height: 410px;
+        height: 100%;
     }
 
     nav {
@@ -1180,7 +1218,7 @@ footer {
     }
 
     .icon-img>p {
-        font-size: 13px;
+        font-size: 20px;
         font-weight: 600;
     }
 
@@ -1193,7 +1231,7 @@ footer {
         border-radius: 0;
         width: 40%;
         /* height: 492.87px; */
-        background-image: url(../img/WhatsApp_Image_2022-12-28_at_12.37.53_PM-removebg-preview.png);
+        /* background-image: url(../img/WhatsApp_Image_2022-12-28_at_12.37.53_PM-removebg-preview.png); */
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -1203,13 +1241,62 @@ footer {
     }
 
     .explore .icon-img {
-        margin: 7%;
+        /* margin: 7%; */
+            height: 150px;
+            width: 190px;
+        }
+        
+        .forCircle1 {
+        
+            /* width: 253px; */
+            min-height: 53px;
+            margin-right: 33px;
+            margin-top: 57px;
+        
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            /* line-min-height: 127%; */
+            /* or 51px */
+            color: #695D7C;
+        
+            text-align: right;
+        }
+        
+        .forCircle {
+            display: none;
+        }
+        
+        .bg-img-2 img {
+            height: 100%;
+            /* transform: scale(1.8); */
+            display: block;
     }
 
     .forCircle p {
         margin-top: 90%;
         margin-left: 10px;
         text-align: left;
+        /* display: none; */
+        }
+        
+        .bg-img-2 {
+            display: block;
+        }
+        
+        .forCircle1 {
+            display: block;
+            position: absolute;
+            bottom: -0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            /* justify-content: center; */
+            z-index: 2;
+            font-size: 36px;
+            /* color: black; */
+            align-items: center;
     }
 
     .testimonials {
