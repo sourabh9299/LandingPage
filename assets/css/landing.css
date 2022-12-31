@@ -198,7 +198,7 @@ nav {
 .phone {
     position: relative;
     width: 1180px;
-    height: 390px;
+    height: auto;
     /* max-height: 413px; */
     left: 10%;
     right: 10%;
@@ -247,7 +247,8 @@ nav {
     font-style: normal;
     font-weight: 600;
     font-size: 38px;
-    margin-top: 20px;
+    margin-top: 14px;
+        margin-bottom: 17px;
     color: #EE5622;
 }
 
@@ -287,12 +288,11 @@ nav {
     position: relative;
     width: 124px;
     height: 36px;
-    /* font-weight: bold; */
     background: linear-gradient(90deg, #EE5622 18.54%, #FFA72B 116.25%);
     border-radius: 10px;
     color: white;
     border: white;
-    margin: 2px 0;
+    margin: 129px 0 58px 0;
 
 }
 
@@ -301,11 +301,12 @@ nav {
     width: 199px;
     height: 56px;
     margin-left: 40px;
-    font-weight: bold;
+
     background: linear-gradient(90deg, #EE5622 18.54%, #FFA72B 116.25%);
     border-radius: 10px;
     color: white;
     border: white;
+    font-size: 24px;
 }
 
 .heading-div .p-download {
@@ -358,7 +359,7 @@ nav {
 .explore .icon-img {
     text-align: center;
     /* margin: 5%; */
-        width: 165px;
+    width: 165px;
     }
     
     
@@ -1121,19 +1122,20 @@ footer {
 }
 
 
-/* @media only screen and (max-device-width: 1265px) {
+@media only screen and (max-device-width: 1352px) {
+    .explore .icon-img {
+        width: 20%;
+    }
 
-
-    /* explore */
-.explore .icon-img {
-    /* margin: 0 3% 0 3%; */
+        .explore .icon-img img {
+            height: 50%;
+            width: 50%;
+        }
 }
 
 
 @media only screen and (max-device-width: 1196px) {
-    .explore .icon-img {
-        /* margin: 0 1.5% 0 1.5%; */
-    }
+
 }
 
 
@@ -1171,12 +1173,13 @@ footer {
         
                     top: 20px;
                 }
+
     .phone .heading-div .p1 {
         font-size: 20px;
         line-height: 18px;
         color: #695D7C;
         margin-top: 36px;
-            margin-bottom: 8px;
+        margin-bottom: 8px;
     }
 
     .phone .heading-div .p2 {
@@ -1209,6 +1212,7 @@ footer {
                 .phone .store-img {
                     margin-bottom: 28px;
                 }
+
     .phone {
         height: 100%;
     }
@@ -1216,6 +1220,10 @@ footer {
     nav {
         padding: 0;
     }
+.explore .icon-img img {
+    width: 65px;
+    height: 65px;
+}
 
     .icon-img>p {
         font-size: 20px;
@@ -1242,32 +1250,28 @@ footer {
 
     .explore .icon-img {
         /* margin: 7%; */
-            height: 150px;
+        height: 180px;
             width: 190px;
         }
         
-        .forCircle1 {
-        
-            /* width: 253px; */
+                                                                .forCircle1 {
             min-height: 53px;
-            margin-right: 33px;
-            margin-top: 57px;
-        
+            margin-left: 15px;
+                position: absolute;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 600;
             font-size: 36px;
-            /* line-min-height: 127%; */
-            /* or 51px */
             color: #695D7C;
+            top: 0px;
         
-            text-align: right;
         }
         
+
         .forCircle {
             display: none;
         }
-        
+    
         .bg-img-2 img {
             height: 100%;
             /* transform: scale(1.8); */
@@ -1299,11 +1303,19 @@ footer {
             align-items: center;
     }
 
+                                                                .testimonials .first,
+                                                                .testimonials .second {
+                                                                    margin: 0;
+                                                                    border-radius: 15px;
+                                                                }
     .testimonials {
         flex-direction: row;
         flex-wrap: wrap;
     }
 
+                                                                .testimonials .second #book {
+                                                                    display: block;
+                                                                }
     .testimonal-text {
         font-size: 22px;
     }
