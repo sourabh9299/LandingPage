@@ -179,7 +179,7 @@
         /* line-min-height: 42px; */
         align-items: center;
         color: #FFFFFF;
-        margin-top: -10px;
+        margin-top: -20px;
 
 
     }
@@ -199,15 +199,9 @@
         position: relative;
         width: 1180px;
         height: auto;
-        /* max-height: 413px; */
         left: 10%;
         right: 10%;
-
-        /* White */
-
         background: #FFFFFF;
-        /* Frames */
-
         box-shadow: 0px 0px 11px 2px rgba(49, 38, 62, 0.1);
         border-radius: 50px;
 
@@ -218,6 +212,7 @@
         justify-content: space-evenly;
         padding: 2rem;
         /* padding-bottom: px; */
+        padding-bottom: 0;
     }
 
 
@@ -236,7 +231,7 @@
 
     .image_phone img {
         width: 390px;
-        height: 377px;
+        height: auto;
         position: relative;
         top: -19px;
 
@@ -257,8 +252,8 @@
         font-style: normal;
         font-weight: 400;
         font-size: 24px;
-        line-height: 36px;
-      color: #695D7C;
+        line-height: 25px;
+        color: #695D7C;
     }
 
     .phone .heading-div .p2 {
@@ -267,7 +262,7 @@
         font-weight: 400;
         font-size: 24px;
         color: #695D7C;
-     }
+    }
 
     .phone .phone-img {
         position: relative;
@@ -288,6 +283,7 @@
         color: white;
         border: white;
         margin: 30px 0 20px 0;
+        font-weight: 600;
 
     }
 
@@ -354,7 +350,7 @@
     .explore .icon-img {
         text-align: center;
         /* margin: 5%; */
-        width: 165px;
+        width: 18%;
     }
 
 
@@ -376,7 +372,7 @@
     }
 
     .homework {
-        width: 48px !important;
+        width: 45px;
         /* height: 48px !important; */
     }
 
@@ -966,6 +962,8 @@
         font-size: 14px !important;
         min-height: 12px !important;
         width: 12px !important;
+        color: #b79f9f;
+        
     }
 
     .slick-dots li.slick-active button:before {
@@ -985,6 +983,10 @@
     .teacher-round-img {
         width: 400px;
         margin: auto;
+    }
+
+    .testimonials .second #book {
+        font-weight: 600;
     }
 
     /* fade in out =========================================end */
@@ -1055,7 +1057,7 @@
         font-weight: 600;
         font-size: 12px;
         height: 18px;
-         display: flex;
+        display: flex;
         align-items: center;
 
         color: #695D7C;
@@ -1148,19 +1150,15 @@
             height: 40px;
         }
 
-
-        .image_phone img {
-            height: 362px;
-        }
-
         .For-typed {
             height: 180px;
 
         }
 
         .image_phone img {
-
             top: 20px;
+            width:100% ;
+            height: 110%;
         }
 
         .phone .heading-div .p1 {
@@ -1169,6 +1167,7 @@
             color: #695D7C;
             margin-top: 36px;
             margin-bottom: 8px;
+            font-weight: 400;
         }
 
         .phone .heading-div .p2 {
@@ -1178,6 +1177,10 @@
 
             color: #EE5622;
         }
+
+                .nav-icons .icon-2{
+                    font-size: 18px;
+                }
 
         .banner .banner-text {
             top: 71px;
@@ -1224,6 +1227,11 @@
             flex-direction: row-reverse;
         }
 
+
+                        .homework {
+                            width: 55px;
+                        }
+
         .exp-img {
             background: white;
             border-radius: 0;
@@ -1254,6 +1262,7 @@
             font-size: 36px;
             color: #695D7C;
             top: 0px;
+            z-index: -1;
 
         }
 
@@ -1306,6 +1315,7 @@
 
         .testimonials .second #book {
             display: block;
+            /* font-weight: 600; */
         }
 
         .testimonal-text {
@@ -1315,6 +1325,10 @@
         .writter-p {
             font-size: 22px;
         }
+
+                .slick-dots{
+                    display: none !important;
+                }
 
         .review {
             flex-direction: column-reverse;
