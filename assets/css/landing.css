@@ -436,6 +436,10 @@
         margin-right: 20px;
     }
 
+        .testimonials .first .slick-dots{
+            margin-left: 1.5% !important;
+        }
+
     .testimonials .second {
         min-height: auto;
         background: url(../img/div-bg.png);
@@ -1210,8 +1214,10 @@
         }
 
         .banner-button {
-            margin-top: 52px;
+            margin-top: 35px;
         }
+
+                
 
         .heading-div .p-download {
             margin: 0;
