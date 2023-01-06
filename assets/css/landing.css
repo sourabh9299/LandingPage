@@ -1108,7 +1108,7 @@
 
     .footer-widget .footer-menu li a:hover {
         color: #ee5622;
-        font-weight: 600;
+        /* font-weight: 600; */
     }
 
     .social-profile li::marker {
