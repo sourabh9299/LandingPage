@@ -79,7 +79,7 @@
         color: white;
     }
 
-        .nav-icons a:hover {
+    .nav-icons a:hover {
         text-decoration: none;
     }
 
@@ -384,13 +384,9 @@
 
 
     .exp-img {
-        /* position: relative; */
-
-        width: 400px;
-        /* background: #F38864 */
-
+        width: 412px;
         color: white;
-        width: 400px;
+
         background: #F38864;
         border-radius: 2pc 16pc 269px 93pc;
     }
@@ -405,9 +401,9 @@
     }
 
 
-        .testimonials .second>p {
-            margin-right: 20px;
-        }
+    .testimonials .second>p {
+        margin-right: 25%;
+    }
 
 
 
@@ -438,9 +434,9 @@
         margin-right: 20px;
     }
 
-        .testimonials .first .slick-dots {
-            margin-left: 1.5% !important;
-        }
+    .testimonials .first .slick-dots {
+        margin-left: 1.5% !important;
+    }
 
     .testimonials .second {
         min-height: auto;
@@ -492,7 +488,7 @@
         font-style: normal;
         margin-top: 84px;
         background: none;
-        margin-left: 40px;
+        margin-left: 7%;
         /* font-weight: 600; */
         font-size: 32px;
         min-height: 44px;
@@ -984,10 +980,10 @@
     }
 
 
-        .slick-dots {
-            position: static !important;
-            margin-bottom: 0 !important;
-        }
+    .slick-dots {
+        position: static !important;
+        margin-bottom: 0 !important;
+    }
 
 
 
@@ -1108,7 +1104,7 @@
 
     .footer-widget .footer-menu li a:hover {
         color: #ee5622;
-        /* font-weight: 600; */
+        font-weight: 600;
     }
 
     .social-profile li::marker {
@@ -1130,6 +1126,7 @@
         margin: auto;
         margin-bottom: 2rem;
         width: 90%;
+        max-width: 1160px;
     }
 
 
@@ -1142,6 +1139,10 @@
             height: 60px;
             width: 60px;
         }
+
+        .testimonials .second>p {
+            margin-right: 10px;
+        }
     }
 
 
@@ -1149,17 +1150,24 @@
         .quotes {
             font-size: 34px;
         }
-.explore .icon-img img {
+
+        .explore .icon-img img {
             width: 45%;
             height: 45%;
         }
-.icon-img>p {
-    font-size: 16px;
-}
-.testimonials .second>p {
-    margin-right: 0;
-    margin-left: 10px;
-}
+
+        .icon-img>p {
+            font-size: 16px;
+        }
+
+        .testimonials .second>p {
+            margin-right: 0;
+            margin-left: 35px;
+        }
+
+        .testimonials .second>p {
+            margin-right: 10px;
+        }
     }
 
 
@@ -1175,6 +1183,7 @@
             margin: auto;
             margin-bottom: 2rem;
             border-radius: 15px;
+            max-width: 1160px;
         }
 
 
@@ -1365,13 +1374,14 @@
             font-size: 22px;
         }
 
-                .testimonials .slick-dots {
+        .testimonials .slick-dots {
             display: none !important;
             /* width: 93% !important; */
         }
-.slick-dots {
-    position: relative !important;
-}
+
+        .slick-dots {
+            position: relative !important;
+        }
 
         .review {
             flex-direction: column-reverse;
@@ -1444,21 +1454,21 @@
 
 
 
-                .social-profile li a {
-                    position: relative;
-                    background: #f9f8fc;
-                    width: 22px;
-                    min-height: 22px;
-                    border-radius: 8px;
-                    padding: 24px;
-                    display: block;
-                    color: #695d7c;
-                    text-align: center;
-                    color: #695d7c;
-                    text-align: center;
-                    font-size: 14px;
-                    height: 16px;
-                }
+        .social-profile li a {
+            position: relative;
+            background: #f9f8fc;
+            width: 22px;
+            min-height: 22px;
+            border-radius: 8px;
+            padding: 24px;
+            display: block;
+            color: #695d7c;
+            text-align: center;
+            color: #695d7c;
+            text-align: center;
+            font-size: 14px;
+            height: 16px;
+        }
 
         .social-profile i::before {
             position: absolute !important;
@@ -1484,11 +1494,11 @@
             height: auto;
         }
 
-                .footer-area .footer-main {
+        .footer-area .footer-main {
             padding-left: 20px;
         }
 
-                .footer-area .footer-main {
+        .footer-area .footer-main {
             margin-top: 50px;
         }
     }
