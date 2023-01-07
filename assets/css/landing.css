@@ -235,10 +235,9 @@
     }
 
     .image_phone img {
-        width: 390px;
-        height: auto;
+        width: 100%;
+        height: 100%;
         position: relative;
-        top: -19px;
 
     }
 
@@ -1209,9 +1208,11 @@
         }
 
         .image_phone img {
-            top: 20px;
+
+            /* top: 20px; */
             width: 100%;
             height: 100%;
+        bottom: -27px;
         }
 
         .phone .heading-div .p1 {
