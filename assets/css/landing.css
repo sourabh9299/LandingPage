@@ -967,15 +967,14 @@
         font-size: 14px !important;
         min-height: 12px !important;
         width: 12px !important;
-        color: #b79f9f !important;
+        color: unset !important;
+            opacity: .25;
+            color: #FFD395 !important;
 
     }
 
     .slick-dots li.slick-active button:before {
         color: #EE5622 !important;
-        /* font-size: 22px !important; */
-
-        /* background: white ; */
     }
 
 
@@ -1119,7 +1118,7 @@
     .explore,
     .testimonials,
     .review {
-        top: -60px;
+        top: -45px;
         right: unset;
         left: unset;
         margin: auto;
